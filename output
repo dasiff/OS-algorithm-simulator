@@ -1,0 +1,205 @@
+processes loaded
+Ready queue loaded
+running algorithm
+Time: 0
+Current process running: 1 with 3 time units left.
+IO Queue: 
+queue empty 
+Ready Queue: 
+Process 2 waiting to start new cpu burst
+
+
+Time 3
+Process 1 completed cpu burst.  sending to io 
+
+Time: 3
+CPU idle. 
+IO Queue: 
+Process 1 has 15 left until finished. 
+Ready Queue: 
+Process 2 waiting to start new cpu burst
+Time: 3; Process 2 now running.
+Time: 3
+Current process running: 2 with 2 time units left.
+IO Queue: 
+Process 1 has 15 left until finished. 
+Ready Queue: 
+queue empty 
+
+
+Time 5
+Process 2 completed cpu burst.  sending to io 
+
+Time: 5
+CPU idle. 
+IO Queue: 
+Process 1 has 13 left until finished. 
+Process 2 has 20 left until finished. 
+Ready Queue: 
+queue empty 
+
+
+Time 18
+Process 1 completed io.  sending to ready queue 
+
+Time: 18
+CPU idle. 
+IO Queue: 
+Process 2 has 7 left until finished. 
+Ready Queue: 
+Process 1 waiting to start new cpu burst
+Time: 18; Process 1 now running.
+Time: 18
+Current process running: 1 with 3 time units left.
+IO Queue: 
+Process 2 has 7 left until finished. 
+Ready Queue: 
+queue empty 
+
+
+Time 21
+Process 1 completed final cpu burst.  sending to done list 
+
+Time: 21
+CPU idle. 
+IO Queue: 
+Process 2 has 4 left until finished. 
+Ready Queue: 
+queue empty 
+
+
+Time 25
+Process 2 completed io.  sending to ready queue 
+
+Time: 25
+CPU idle. 
+IO Queue: 
+queue empty 
+Ready Queue: 
+Process 2 waiting to start new cpu burst
+Time: 25; Process 2 now running.
+Time: 25
+Current process running: 2 with 27 time units left.
+IO Queue: 
+queue empty 
+Ready Queue: 
+queue empty 
+
+
+Time 30
+Process 2 finished allocated cpu time (did not finish burst).  sending to ready queue 
+
+Time: 30
+CPU idle. 
+IO Queue: 
+queue empty 
+Ready Queue: 
+Process 2 waiting to resume, with 22 left until finished current burst. 
+Time: 30; Process 2 now running.
+Time: 30
+Current process running: 2 with 22 time units left.
+IO Queue: 
+queue empty 
+Ready Queue: 
+queue empty 
+
+
+Time 35
+Process 2 finished allocated cpu time (did not finish burst).  sending to ready queue 
+
+Time: 35
+CPU idle. 
+IO Queue: 
+queue empty 
+Ready Queue: 
+Process 2 waiting to resume, with 17 left until finished current burst. 
+Time: 35; Process 2 now running.
+Time: 35
+Current process running: 2 with 17 time units left.
+IO Queue: 
+queue empty 
+Ready Queue: 
+queue empty 
+
+
+Time 40
+Process 2 finished allocated cpu time (did not finish burst).  sending to ready queue 
+
+Time: 40
+CPU idle. 
+IO Queue: 
+queue empty 
+Ready Queue: 
+Process 2 waiting to resume, with 12 left until finished current burst. 
+Time: 40; Process 2 now running.
+Time: 40
+Current process running: 2 with 12 time units left.
+IO Queue: 
+queue empty 
+Ready Queue: 
+queue empty 
+
+
+Time 45
+Process 2 finished allocated cpu time (did not finish burst).  sending to ready queue 
+
+Time: 45
+CPU idle. 
+IO Queue: 
+queue empty 
+Ready Queue: 
+Process 2 waiting to resume, with 7 left until finished current burst. 
+Time: 45; Process 2 now running.
+Time: 45
+Current process running: 2 with 7 time units left.
+IO Queue: 
+queue empty 
+Ready Queue: 
+queue empty 
+
+
+Time 50
+Process 2 finished allocated cpu time (did not finish burst).  sending to ready queue 
+
+Time: 50
+CPU idle. 
+IO Queue: 
+queue empty 
+Ready Queue: 
+Process 2 waiting to resume, with 2 left until finished current burst. 
+Time: 50; Process 2 now running.
+Time: 50
+Current process running: 2 with 2 time units left.
+IO Queue: 
+queue empty 
+Ready Queue: 
+queue empty 
+
+
+Time 52
+Process 2 completed final cpu burst.  sending to done list 
+
+Time: 52
+CPU idle. 
+IO Queue: 
+queue empty 
+Ready Queue: 
+queue empty 
+
+
+Test complete.  Total runtime 52
+Process 1:  
+     Run time : 6
+     IO time: 15
+     Waiting time : 0
+     Response time : 0
+
+Process 2:  
+     Run time : 29
+     IO time: 20
+     Waiting time : 3
+     Response time : 3
+
+Averages:
+Waiting time: 1.5
+Response time: 1.5
